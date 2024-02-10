@@ -1,5 +1,9 @@
+import FAQ from "./sections/FAQ";
+
 function App() {
-  return <></>;
+  return <>
+    <FAQ />
+  </>;
 }
 
 export default App;
