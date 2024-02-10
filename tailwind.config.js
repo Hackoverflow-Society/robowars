@@ -2,7 +2,14 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        "custom":"url('/images/grainGroup.png')",
+      },
+      fontFamily: {
+        babasneue:"BabasNeues, sans-serif",
+      },
+    },
   },
   plugins: [],
 };
