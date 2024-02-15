@@ -3,5 +3,5 @@
 @tailwind utilities;
 @font-face{
     font-family: "BabasNeue";
-    src: local("BabasNeue"),url("./fonts/Bebas_Neue,Caramel,Montserrat,Ubuntu/Bebas_Neue/BebasNeue-Regular.ttf") format('truetype')
+    src: local("BabasNeue"),url("./fonts/Bebas_Neue/BebasNeue-Regular.ttf") format('truetype')
 }
