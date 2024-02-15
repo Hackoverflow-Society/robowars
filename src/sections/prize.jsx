@@ -2,7 +2,7 @@ export default function Prize(){
     return(
         <section className="h-full w-auto">
             <div className="text-white lg:px-36 p-8">
-                <h1 className="lg:text-[50px] text-[25px] font-babasneue font-semibold">&#10095;&#10095;PRIZES</h1>
+                <h1 className="lg:text-[50px] text-[25px] font-babasneue font-semibold">&gt;&gt; PRIZES</h1>
                 <h1 className="lg:text-[20px] text-[15px] font-babasneue font-semibold">CONQUER THE BATTLEGROUND AND ERAN YOUR MEDALS</h1>
             </div>
             <div className="flex flex-col lg:pt-10 ">
