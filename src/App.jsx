@@ -3,6 +3,8 @@ import Prize from "./sections/prize";
 import Hero from "./sections/Hero";
 import { FAQ } from "./sections/FAQ";
 import Timeline from "./sections/Timeline";
+import Footer from "./sections/Footer";
+import Sponsors from "./sections/Sponsors";
 function App() {
   return (
     <>
@@ -11,7 +13,9 @@ function App() {
         <About />
         <Timeline />
         <Prize />
+        <Sponsors/>
         <FAQ />
+        <Footer/>
       </main>
     </>
   );
