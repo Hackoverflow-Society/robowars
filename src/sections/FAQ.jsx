@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import faqs from "../data/faqs";
+import { motion } from "framer-motion";
 
-function FAQ() {
+export function FAQ() {
   const [openedFaqIndex, setOpenedFaqIndex] = useState(null);
 
   const handleIconCLick = (idx) => {
@@ -13,33 +14,44 @@ function FAQ() {
     <div key={idx} className="pb-2 relative">
       <div
         onClick={() => handleIconCLick(idx)}
-        style={{ height: openedFaqIndex === idx ? "auto" : "50px" }}
+        style={{ height: openedFaqIndex === idx ? "auto" : "fit-content" }}
         className="cursor-pointer px-4 border-[rgba(255,67,26,0.9)] border-[2px] bg-black flex flex-col justify-center py-4"
       >
-        <span>Q: {faq.question}</span>
-        {openedFaqIndex === idx && <div>Ans: {faq.answer}</div>}
-      </div>
-      <div>
-        <img
-        onClick={() => handleIconCLick(idx)}
-          src="\public\images\downIcon.png"
-          className={
-            openedFaqIndex === idx
-              ? "absolute top-0 translate-y-1/2 right-1 rotate-180"
-              : "absolute top-0 translate-y-1/2 right-1 cursor-pointer"
-          }
-        ></img>
+        <div className="flex justify-between gap-2">
+          <span className="w-full font-BebasNeue">Q: {faq.question}</span>
+          <div className="w-6">
+            <img
+              onClick={() => handleIconCLick(idx)}
+              src="\images\downIcon.png"
+              className={
+                openedFaqIndex === idx
+                  ? "w-full grow aspect-square rotate-180"
+                  : "w-full aspect-square cursor-pointer"
+              }
+            ></img>
+          </div>
+        </div>
+        {openedFaqIndex === idx && (
+          <div className="font-BebasNeue text-[#FF431A] mt-4">
+            Ans: {faq.answer}
+          </div>
+        )}
       </div>
     </div>
   ));
   return (
-    <section className="bg-black min-h-[100vh]">
-      <div className="lg:px-24 sm:px-[8px] pt-2">
-        <h1 className="text-white pb-2">{">>"} FAQ</h1>
+    <motion.section
+      initial={{ y: 500, opacity: 0 }}
+      whileInView={{ y: 0, opacity: 100 }}
+      transition={{ duration: 1 }}
+      className="min-h-[100vh]"
+    >
+      <div className="lg:px-36 p-8 pt-2">
+        <h1 className="text-[#FF431A] font-BebasNeue font-[400] pb-2 text-[3vmax]">
+          {">>"} FAQ
+        </h1>
         <div className="text-white">{FAQs}</div>
       </div>
-    </section>
+    </motion.section>
   );
 }
-
-export default FAQ;

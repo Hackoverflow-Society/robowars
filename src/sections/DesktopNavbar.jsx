@@ -1,7 +1,7 @@
 // import line from "/images/navbar-line.webp";
 // import cuLogo from "/images/cuLogo.webp";
-import htflogo from "../../public/images/htflogo.png";
-import logo from "../../public/images/logo.png";
+import htflogo from "/images/htflogo.png";
+import logo from "/images/logo.png";
 
 export default function DesktopNavbar() {
   return (
@@ -9,7 +9,7 @@ export default function DesktopNavbar() {
       <ul className="tracking-wider font-BebasNeue flex gap-24 justify-between items-center ">
         <li className="nav-links w-1/12">
           <a href="#competetion">
-          <img className="" src={logo} alt="logo"/>
+            <img className="" src={logo} alt="logo" />
           </a>
         </li>
         <li className="nav-links ">
@@ -21,7 +21,7 @@ export default function DesktopNavbar() {
         {/* <li className="nav-links ">
           <a href="#schedule">Schedule</a>
         </li> */}
-      {/* </ul>
+        {/* </ul>
       <ul className="flex gap-8 items-center "> */}
         <li className="nav-links ">
           <a href="#ourTeam">Prize</a>
@@ -31,7 +31,7 @@ export default function DesktopNavbar() {
         </li>
         <a href="/pdf/CodeOfConductHTF.pdf" download="CodeOfConduct.pdf">
           <li className="nav-links ">
-            <img src={htflogo} alt="htflogo"/>
+            <img src={htflogo} alt="htflogo" />
           </li>
         </a>
       </ul>
