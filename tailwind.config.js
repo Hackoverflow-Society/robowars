@@ -2,10 +2,14 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
-    fontFamily:{
-      BebasNeue:["Bebas Neue","sans-serif"]
-    }
+    extend: {
+      backgroundImage: {
+        custom: "url('/images/grainGroup.png')",
+      },
+      fontFamily: {
+        BebasNeue: ["Bebas Neue", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };
