@@ -12,7 +12,8 @@ export function FAQ() {
 
   const FAQs = faqs.map((faq, idx) => (
     <div key={idx} className="pb-2 relative">
-      <div
+      <motion.div
+        layout
         onClick={() => handleIconCLick(idx)}
         style={{ height: openedFaqIndex === idx ? "auto" : "fit-content" }}
         className="cursor-pointer px-4 border-[rgba(255,67,26,0.9)] border-[2px] bg-black flex flex-col justify-center py-4"
@@ -25,7 +26,7 @@ export function FAQ() {
               src="\images\downIcon.png"
               className={
                 openedFaqIndex === idx
-                  ? "w-full grow aspect-square rotate-180"
+                  ? "w-full grow aspect-square transition-all duration-300 rotate-180"
                   : "w-full aspect-square cursor-pointer"
               }
             ></img>
@@ -36,12 +37,12 @@ export function FAQ() {
             Ans: {faq.answer}
           </div>
         )}
-      </div>
+      </motion.div>
     </div>
   ));
   return (
     <motion.section
-      initial={{ y: 500, opacity: 0 }}
+      initial={{ y: 300, opacity: 0 }}
       whileInView={{ y: 0, opacity: 100 }}
       transition={{ duration: 1 }}
       className="min-h-[100vh]"
