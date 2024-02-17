@@ -1,6 +1,6 @@
 export const WorkingTimeline = () => {
   return (
-    <div className="sticky flex-col hidden w-full px-8 mt-2 sm:flex sm:visible md:top-36 lg:w-1/3 md:mt-12 ">
+    <div className="sticky flex-col hidden w-full px-8 mt-2 lg:flex md:visible md:top-36 lg:w-1/3 md:mt-12 ">
       <p className="ml-2 text-[#ff431a] uppercase tracking-loose">
         Working Process
       </p>
