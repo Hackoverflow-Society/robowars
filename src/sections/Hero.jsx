@@ -7,13 +7,13 @@ function Hero() {
   return (
     <>
       <div className=" min-h-screen text-white z-5">
-        <img className="z-5 absolute w-full" src={heroshade} alt="shade" />
+        <img className="z-5 absolute min-h-screen w-full min" src={heroshade} alt="shade" />
         <NavbarSimple />
         <br />
         <br />
-        <div className="z-0 flex justify-center">
+        <div className="z-0 flex item-center justify-center">
           <img
-            className="bg-repeat-y object-contain lg:block absolute mt-[-8rem] item-center min-h-screen mx-auto"
+            className="object-contain hidden lg:block absolute mt-[-8rem] item-center min-h-screen mx-auto"
             src={robo}
             alt="robo"
           />
@@ -23,12 +23,12 @@ function Hero() {
             src={shadehero}
             alt="shade"
           /> */}
-        <div className="w-full tracking-wider font-BebasNeue absolute text-center mx-auto">
-          <p className="text-5xl text-[#FF431A]">BATTLEBOTS</p>
-          <h1 className="text-7xl lg:text-8xl tracking-[4px] py-8">
+        <div className="w-full lg:pt-0 md:pt-60 justify-center tracking-wider font-BebasNeue absolute text-center mx-auto">
+          <p className="text-6xl text-[#FF431A]">BATTLEBOTS</p>
+          <h1 className="text-7xl md:text-8xl tracking-[4px] py-8">
             EXPERIENCE THE FORGE!
           </h1>
-          <p className="text-xl font-thin uppercase pb-20 px-2">
+          <p className="text-2xl font-thin uppercase pb-20 px-2">
             Lorem ipsum dolor sit amet consectetur. Ornare at elit ut ut arcu
             interdum.{" "}
           </p>

@@ -8,7 +8,7 @@ export default function About() {
       transition={{ duration: 1 }}
       className="min-h-screen w-full flex justify-center items-center"
     >
-      <div className="lg:pl-36 px-8">
+      <div id="about" className="lg:pl-36 px-8">
         <h1 className="text-[#FF431A] font-BebasNeue font-[400] pb-2 text-[3vmax]">
           &gt;&gt; BATTLEBOTS
         </h1>

@@ -3,7 +3,7 @@ import { TimelineSections } from "./TimelineSections";
 const Timeline = () => {
   return (
     <section>
-      <div className="py-8 text-white ">
+      <div id="timeline" className="py-8 text-white ">
         <div className="container flex flex-col items-start mx-auto my-12 md:flex-row md:my-24">
           <WorkingTimeline />
           <div className="sticky ml-0 md:ml-12 lg:w-2/3">
