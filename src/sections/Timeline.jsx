@@ -2,21 +2,6 @@ import { WorkingTimeline } from "./WorkingTimeline";
 import { motion } from "framer-motion";
 const Timeline = () => {
   return (
-<<<<<<< HEAD
-    <section>
-      <div id="timeline" className="py-8 text-white ">
-        <div className="container flex flex-col items-start mx-auto my-12 md:flex-row md:my-24">
-          <WorkingTimeline />
-          <div className="sticky ml-0 md:ml-12 lg:w-2/3">
-            <div className="container w-full h-full mx-auto">
-              <div className="relative h-full p-10 overflow-hidden wrap">
-                <div
-                  className="absolute h-full border border-2-2 border-yellow-555"
-                  style={{
-                    right: "50%",
-                    border: "2px solid #e73d18",
-                    borderRadius: "1%",
-=======
     <motion.section
       initial={{ y: 300, opacity: 0 }}
       whileInView={{ y: 0, opacity: 100 }}
@@ -24,7 +9,7 @@ const Timeline = () => {
       className="min-h-[50vh] lg:min-h-screen w-auto font-BebasNeue"
     >
       <section>
-        <div className="py-8 text-white">
+        <div id="timeline"className="py-8 text-white">
           <div className="container flex flex-col items-start mx-auto my-12 lg:flex-row lg:my-24">
             <WorkingTimeline />
 
@@ -164,7 +149,6 @@ const Timeline = () => {
                     opacity: 0,
                     translateX: 0,
                     translateY: 80,
->>>>>>> db4f4b62f517d4913575ad3f59a7219d303b9fcf
                   }}
                   whileInView={{ opacity: 1, translateX: 0, translateY: 0 }}
                   transition={{ duration: 0.8 }}

@@ -8,11 +8,7 @@ export default function Prize() {
       transition={{ duration: 1 }}
       className="min-h-[50vh] lg:min-h-screen w-auto"
     >
-<<<<<<< HEAD
       <div id="prize" className="text-white lg:px-36 p-8">
-=======
-      <div className="p-8 text-white lg:px-36 ">
->>>>>>> db4f4b62f517d4913575ad3f59a7219d303b9fcf
         <h1 className="text-[3vmax] text-[#FF431A] font-BebasNeue ">
           &gt;&gt; PRIZES
         </h1>

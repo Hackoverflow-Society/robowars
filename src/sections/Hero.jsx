@@ -6,7 +6,7 @@ import arrow from "/images/arrow.png";
 function Hero() {
   return (
     <>
-      <div className=" min-h-screen text-white z-5">
+      <div id="hero" className="min-h-screen text-white z-5">
         <img className="z-5 absolute min-h-screen w-full min" src={heroshade} alt="shade" />
         <NavbarSimple />
         <br />
@@ -35,7 +35,7 @@ function Hero() {
           <button className="bg-[#FF431A] bg-opacity-90 tracking-[1px] text-white text-xl py-4 px-6 rounded focus:outline-none focus:shadow-outline">
             <a href="#">Register Now!</a>
           </button>
-          <a href="#">
+          <a href="#about">
             <p className="text-md opacity-50 font-thin uppercase pt-12">
               Scroll Down{" "}
             </p>
