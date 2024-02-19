@@ -5,6 +5,9 @@ import { FAQ } from "./sections/FAQ";
 import Timeline from "./sections/Timeline";
 import Footer from "./sections/Footer";
 import Sponsors from "./sections/Sponsors";
+
+import './App.css';
+
 function App() {
   return (
     <>
