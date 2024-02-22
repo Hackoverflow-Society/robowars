@@ -22,7 +22,7 @@ export default function DesktopNavbar() {
             <img className="" src={logo} alt="logo" />
           </a>
         </li>
-        <li className="nav-links">
+        <li className="nav-links ">
           <a href="#about" className="decoration-[#FF431A] hover:underline decoration-2">The Game</a>
         </li>
         <li className="nav-links ">
