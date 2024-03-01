@@ -6,8 +6,8 @@ import arrow from "/images/arrow.png";
 function Hero() {
   return (
     <>
-      <div className=" min-h-screen text-white z-5">
-        <img className="z-5 absolute w-full" src={heroshade} alt="shade" />
+      <div className="min-h-screen text-white  z-5">
+        <img className="absolute w-full z-5" src={heroshade} alt="shade" />
         <NavbarSimple />
         <br />
         <br />
@@ -19,16 +19,16 @@ function Hero() {
           />
         </div>
         {/* <img
-            className="absolute item-center w-screen z-2 m-auto"
+            className="absolute w-screen m-auto item-center z-2"
             src={shadehero}
             alt="shade"
           /> */}
-        <div className="w-full tracking-wider font-BebasNeue absolute text-center mx-auto">
+        <div className="absolute w-full mx-auto tracking-wider text-center font-BebasNeue">
           <p className="text-5xl text-[#FF431A]">BATTLEBOTS</p>
           <h1 className="text-7xl lg:text-8xl tracking-[4px] py-8">
             EXPERIENCE THE FORGE!
           </h1>
-          <p className="text-xl font-thin uppercase pb-20 px-2">
+          <p className="px-2 pb-20 text-xl font-thin uppercase">
             Lorem ipsum dolor sit amet consectetur. Ornare at elit ut ut arcu
             interdum.{" "}
           </p>
@@ -36,11 +36,11 @@ function Hero() {
             <a href="#">Register Now!</a>
           </button>
           <a href="#">
-            <p className="text-md opacity-50 font-thin uppercase pt-12">
+            <p className="pt-12 font-thin uppercase opacity-50 text-md">
               Scroll Down{" "}
             </p>
             <img
-              className="flex justify-center items-center mx-auto"
+              className="flex items-center justify-center mx-auto"
               src={arrow}
               alt="arrow"
             />
