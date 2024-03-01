@@ -28,16 +28,16 @@ export default function MobileNavbar({ isOpen, setIsOpen }) {
         >
           <ul className="flex flex-col gap-2">
             <li>
-              <a href="#competetion">The Game</a>
+              <a href="#about">The Game</a>
             </li>
             <li>
-              <a href="#workshops">Timeline</a>
+              <a href="#timeline">Timeline</a>
             </li>
             <li>
-              <a href="#multiverse">Prize</a>
+              <a href="#prize">Prize</a>
             </li>
             <li>
-              <a href="#schedule">FAQ</a>
+              <a href="#faq">FAQ</a>
             </li>
             
             <a href="/pdf/CodeOfConductHTF.pdf" download="CodeOfConduct.pdf">

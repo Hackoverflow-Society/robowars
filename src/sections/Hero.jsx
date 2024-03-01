@@ -5,15 +5,20 @@ import arrow from "/images/arrow.png";
 
 function Hero() {
   return (
-    <>
-      <div className="min-h-screen text-white  z-5">
-        <img className="absolute w-full z-5" src={heroshade} alt="shade" />
+    <div className="min-h-screen text-white z-5">
+      <img className="absolute w-full z-5" src={heroshade} alt="shade" />
+      <div id="hero" className="min-h-screen text-white z-5">
+        <img
+          className="absolute w-full min-h-screen z-5 min"
+          src={heroshade}
+          alt="shade"
+        />
         <NavbarSimple />
         <br />
         <br />
-        <div className="z-0 flex justify-center">
+        <div className="z-0 flex justify-center item-center">
           <img
-            className="bg-repeat-y object-contain lg:block absolute mt-[-8rem] item-center min-h-screen mx-auto"
+            className="object-contain hidden lg:block absolute mt-[-8rem] item-center min-h-screen mx-auto"
             src={robo}
             alt="robo"
           />
@@ -47,7 +52,7 @@ function Hero() {
           </a>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

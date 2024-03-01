@@ -5,6 +5,10 @@ import { FAQ } from "./sections/FAQ";
 import Timeline from "./sections/Timeline";
 import Footer from "./sections/Footer";
 import Sponsors from "./sections/Sponsors";
+
+import "./App.css";
+import Contacts from "./sections/Contact";
+
 function App() {
   return (
     <>
@@ -13,9 +17,11 @@ function App() {
         <About />
         <Timeline />
         <Prize />
-        <Sponsors/>
+        <Sponsors />
         <FAQ />
-        <Footer/>
+        <Contacts />
+
+        <Footer />
       </main>
     </>
   );

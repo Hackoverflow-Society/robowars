@@ -9,7 +9,7 @@ const Timeline = () => {
       className="min-h-[50vh] lg:min-h-screen w-auto font-BebasNeue"
     >
       <section>
-        <div className="py-8 text-white">
+        <div id="timeline"className="py-8 text-white">
           <div className="container flex flex-col items-start mx-auto my-12 lg:flex-row lg:my-24">
             <WorkingTimeline />
 

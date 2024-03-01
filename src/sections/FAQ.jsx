@@ -62,7 +62,7 @@ export function FAQ() {
       transition={{ duration: 1 }}
       className="h-auto"
     >
-      <div className="p-8 pt-2 lg:px-36">
+      <div id="faq" className="lg:px-36 p-8 pt-2">
         <h1 className="text-[#FF431A] font-BebasNeue font-[400] pb-2 text-[3vmax]">
           {">>"} FAQ
         </h1>
