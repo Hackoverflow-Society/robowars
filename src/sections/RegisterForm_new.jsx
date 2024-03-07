@@ -16,7 +16,7 @@ export default function RegisterForm() {
   return (
     <section
       id="register"
-      className="h-[100vh] w-[100%] box-border p-5 pt-5 md:pb-5 mb-[20vh] lg:mb-0 relative"
+      className="h-[100vh] w-[100%] box-border p-5 pt-5 md:pb-5 mb-[-15vh] lg:mb-0 relative"
     >
       <span className="capitalize text-[#FF692D]">&#47;&#47; game on</span>
       <div className="flex h-full w-full gap-3 lg:gap-0">
@@ -25,8 +25,10 @@ export default function RegisterForm() {
         </div>
       </div>
 
-      <div className="absolute flex mt-10 flex-col md:flex-row gap-10 lg:flex-row items-center justify-between lg:w-[full] lg:h-[auto] w-[80%] top-[10vh] z-2 h-full  ">
-        <Lottie options={defaultOptions} height={300} width={300} />
+      <div className="absolute flex mt-10 flex-col lg:p-10 lg:pl-[10vw]  md:flex-row gap-10 lg:flex-row items-center justify-between lg:w-[full] lg:h-[auto] w-[80%] top-[10vh] z-2 h-full  ">
+        <div className="hidden md:flex lg:flex justify-center items-center">
+          <Lottie options={defaultOptions} height={300} width={300} />
+        </div>
         <FormProvider>
           <Form />
         </FormProvider>
