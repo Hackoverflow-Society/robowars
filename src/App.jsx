@@ -5,7 +5,7 @@ import { FAQ } from "./sections/FAQ";
 import Timeline from "./sections/Timeline";
 import Footer from "./sections/Footer";
 import Sponsors from "./sections/Sponsors";
-
+import RegisterFrom from "./sections/RegisterForm_new";
 import "./App.css";
 import Contacts from "./sections/Contact";
 
@@ -16,6 +16,7 @@ function App() {
         <Hero />
         <About />
         <Timeline />
+        <RegisterFrom />
         <Prize />
         <Sponsors />
         <FAQ />
