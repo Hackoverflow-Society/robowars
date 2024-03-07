@@ -22,7 +22,7 @@ export default function DesktopNavbar() {
             <img className="h-[20vh]" src={logo} alt="logo" />
           </a>
         </li>
-        <li className="nav-links ">
+        <li className="nav-links whitespace-nowrap">
           <a
             href="#about"
             className="decoration-[#FF431A] hover:underline decoration-2"
@@ -36,6 +36,14 @@ export default function DesktopNavbar() {
             className="scroll-pt-12 decoration-[#FF431A] hover:underline decoration-2"
           >
             Timeline
+          </a>
+        </li>
+        <li className="nav-links ">
+          <a
+            href="#Register"
+            className="scroll-pt-12 decoration-[#FF431A] hover:underline decoration-2"
+          >
+            Register
           </a>
         </li>
         <li className="nav-links ">

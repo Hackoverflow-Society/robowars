@@ -38,7 +38,7 @@ function Hero() {
             interdum.{" "}
           </p>
           <button className="bg-[#FF431A] bg-opacity-90 tracking-[1px] text-white text-xl py-4 px-6 rounded focus:outline-none focus:shadow-outline">
-            <a href="#">Register Now!</a>
+            <a href="#Register">Register Now!</a>
           </button>
           <a href="#">
             <p className="pt-12 font-thin uppercase opacity-50 text-md">
