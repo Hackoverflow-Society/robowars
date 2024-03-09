@@ -29,8 +29,8 @@ export default function Prize() {
         >
           <div className="flex flex-col items-center">
             <img
-              src="\images\1st.png"
-              className="w-[20vw] md:w-[12vw] "
+              src="\images\1st_.png"
+              className="w-[20vw] md:w-[14vw] "
               alt=""
             />
             <h1 className="text-white lg:text-[30px] text-center font-BebasNeue ">
@@ -53,7 +53,7 @@ export default function Prize() {
             transition={{ duration: 0.6 }}
           >
             <div className="flex flex-col items-center ">
-              <img src="\images\3rd.png" className="w-[12vw]" alt="" />
+              <img src="\images\3rd_.png" className="w-[12vw]" alt="" />
               <h1 className="text-white lg:text-[30px] text-center font-BebasNeue ">
                 3RD PRIZE
               </h1>
@@ -73,7 +73,7 @@ export default function Prize() {
             transition={{ duration: 0.6 }}
           >
             <div className="flex flex-col items-center">
-              <img src="\images\2nd.png" className="w-[15vw]" alt="" />
+              <img src="\images\2nd_.png" className="w-[13vw]" alt="" />
               <h1 className="text-white lg:text-[30px] text-center font-BebasNeue ">
                 2ND PRIZE
               </h1>
