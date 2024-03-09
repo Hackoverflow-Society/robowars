@@ -1,5 +1,6 @@
-// import cuLogo from "/images/cuLogo.webp";
-// import htfLogo from "/images/htfLogo.webp";
+import logo from "/images/logo.png";
+import htflogo from "/images/hacktheffest.png";
+
 
 export default function MobileNavbar({ isOpen, setIsOpen }) {
   return (
@@ -9,9 +10,9 @@ export default function MobileNavbar({ isOpen, setIsOpen }) {
           !isOpen ? "border-white" : "border-none"
         } w-[90%] h-full relative flex justify-between items-center duration-300 mx-auto`}
       >
-        <div className="flex gap-4 h-[175%] ">
-          {/* <img src={cuLogo} className="h-full w-20" /> */}
-          {/* <img src={htfLogo} className="h-full relative -top-2" /> */}
+        <div className="flex h-[75%] ">
+          <img src={logo} className="h-full w-16"/>
+          <img src={htflogo} className="h-full w-16 relative" />
         </div>
         <span
           onClick={() => {
