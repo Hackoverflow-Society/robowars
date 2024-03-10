@@ -40,7 +40,7 @@ export default function DesktopNavbar() {
         </li>
         <li className="nav-links ">
           <a
-            href="#Register"
+            href="#register"
             className="scroll-pt-12 decoration-[#FF431A] hover:underline decoration-2"
           >
             Register
