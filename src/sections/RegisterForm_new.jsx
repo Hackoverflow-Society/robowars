@@ -15,7 +15,7 @@ export default function RegisterForm() {
   };
   return (
     <section
-      id="Register"
+      id="register"
       className="min-h-screen w-full box-border pt-5 md:pb-5 mb-[-15vh] lg:mb-0 relative"
     >
       {/* <span className="capitalize text-[#FF692D]">&#47;&#47; game on</span>

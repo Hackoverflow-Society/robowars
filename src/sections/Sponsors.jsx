@@ -9,7 +9,7 @@ const Sponsors = () => {
         transition={{ duration: 1 }}
         className="h-[50vh] md:h-auto w-auto font-BebasNeue"
       >
-        <h1 className="text-5xl text-center text-white ">SPONSORS</h1>
+        <h1 div="prize" className="text-5xl text-center text-white ">SPONSORS</h1>
         <div className="flex flex-wrap items-center justify-around gap-10 p-6 mt-5 text-white max-md:gap-8">
           {sponsorData.map((sponsor, index) => (
             <motion.div
