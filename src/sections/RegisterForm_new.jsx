@@ -15,7 +15,7 @@ export default function RegisterForm() {
   };
   return (
     <section
-      id="register"
+      id="Register"
       className="min-h-screen w-full box-border pt-5 md:pb-5 mb-[-15vh] lg:mb-0 relative"
     >
       {/* <span className="capitalize text-[#FF692D]">&#47;&#47; game on</span>
@@ -25,8 +25,8 @@ export default function RegisterForm() {
         </div>
       </div> */}
       <div id="prize" className="text-white lg:px-36 p-8">
-      <h1 className="lg:text-[20px] md:text-[14px] font-BebasNeue ">
-        &#47;&#47; game on
+        <h1 className="lg:text-[20px] md:text-[14px] font-BebasNeue ">
+          &#47;&#47; game on
         </h1>
         <h1 className="text-[3vmax] text-[#FF431A] font-BebasNeue ">
           &gt;&gt; Register
