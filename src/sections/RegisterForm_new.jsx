@@ -18,12 +18,6 @@ export default function RegisterForm() {
       id="Register"
       className="min-h-screen w-full box-border pt-5 md:pb-5 mb-[-15vh] lg:mb-0 relative"
     >
-      {/* <span className="capitalize text-[#FF692D]">&#47;&#47; game on</span>
-      <div className="flex h-full w-full gap-3 lg:gap-0">
-        <div className="w-full hidden lg:block h-full">
-          <h2 className="uppercase text-5xl font-bold text-white">&gt;&gt; register</h2>
-        </div>
-      </div> */}
       <div id="prize" className="text-white lg:px-36 p-8">
         <h1 className="lg:text-[20px] md:text-[14px] font-BebasNeue ">
           &#47;&#47; game on
