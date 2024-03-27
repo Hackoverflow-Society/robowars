@@ -21,7 +21,6 @@ function App() {
         <Sponsors />
         <FAQ />
         <Contacts />
-
         <Footer />
       </main>
     </>

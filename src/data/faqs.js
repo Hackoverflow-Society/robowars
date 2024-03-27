@@ -1,42 +1,78 @@
 const faqs = [
     {
-        question: "How many team members do I need?",
+        question: "Can we modify our robot between matches?",
         answer:
-          "You can participate individually or in teams of 3 to 5 members. If you are participating in the hackathon individually and looking for a team, we will help you in connecting to other individual participants to get you a team.",
+          "Teams are allowed to perform maintenance and modifications between matches.",
     },
     {
-      question: "Will the hackathon be in person or online?",
-      answer: "Hack Overflow 5.0 hackathon will be conducted in complete offline/in person mode.",
+      question: " Can we have multiple weapons on our robot?",
+      answer: "robots can have multiple types of weapons as long as they meet the specified criteria.",
     },
     {
-      question: "How much are the participation fees?",
-      answer: "Participation is absolutely free inclusive of resources.",
+      question: "What happens if our robot gets damaged during a match?",
+      answer: "Teams are responsible for any damage caused to their own robots during matches.",
     },
     {
-      question: "What are the prerequisites to participate in this hackathon?",
+      question: "Are there any specific safety measures we need to take for our robot's battery?",
       answer:
-        "No prerequisites are required to participate in this hackathon. This event is open to participants of all skill levels.",
+        "there are detailed safety requirements for onboard batteries, including protection from short circuits and ensuring leak-proofing.",
     },
     {
-        question: "How do I register?",
+        question: "Can we use autonomous functions in our robot?",
         answer:
-          "Register your team @ Devfolio",
+          "autonomous functions are allowed, but they must be controllable and overridden remotely if necessary.",
     },
     {
-        question: "What is the venue for Hack Overflow 5.0?",
+        question: "How are matches scored?",
         answer:
-          "Chandigarh University Block D3",
+          "Matches are scored based on criteria such as aggression, damage, and control. Judges determine the winner subjectively.",
     },
     {
-        question: "Is the food and accommodation provided free of charge or are there any associated costs?",
+        question: "What happens if there is radio interference during a match?",
         answer:
-          "We've got you covered when it comes to food, water, and coffee – they're on us. However, any additional snacks can be purchased separately. As for accommodation, we will provide arrangements similar to those found in other hackathons, which typically involve a set of mattresses in a common hall.",
+          "If interference occurs, teams are responsible for ensuring their equipment operates properly. Rematches are not considered in case of interference.",
     },
     {
-        question: "Can my friend join our team after we have already submitted the application for review?",
+        question: "Can we use pre-built components in our robot's construction?",
         answer:
-          "Yes, your friend can join the team by submitting an individual application.Once both your friend's individual application and your team's application are accepted, you will be able to add your friend to the team. For more information, please refer to devfolio's guide: How To Add Team Members",
+          "teams are allowed to use components available in the market or self-made components after approval from the organizers.  ",
     },
-  ];
+    {
+      question: " Is there a limit to the number of matches our robot can participate in?",
+      answer:
+        "There is no specified limit to the number of matches a robot can participate in.",
+    },
+    {
+      question: "Can we use pneumatic and hydraulic systems together in our robot?",
+      answer:
+        "robots can use both pneumatic and hydraulic systems as long as they comply with safety regulations.",
+    },
+    {
+      question: "How are the matches scheduled during the competition?",
+      answer:
+        "Matches are scheduled with a time gap of 20 minutes between each match for teams to prepare their robots.",
+    },
+    {
+      question: "Can we have external help to repair our robot during the competition?",
+      answer:
+        "No, once the robot is in the arena, team members are not allowed to make repairs.",
+    },
+    {
+      question: "What are the applicable entry fees for BattleBots?",
+      answer:
+        "There is no entry fee",
+    },
+    {
+      question: "What are the weight classes available in BattleBots?",
+      answer:
+        "Weight category is 15kg only",
+    },
+    {
+      question: "Can we have external help to repair our robot during the competition?",
+      answer:
+        "No, once the robot is in the arena, team members are not allowed to make repairs.",
+    },
+      
+];
 
 export default faqs;

@@ -5,7 +5,7 @@ import arrow from "/images/arrow.png";
 
 function Hero() {
   return (
-    <div className="min-h-screen text-white z-5">
+    <div className="lg:min-h-screen text-white z-5 ">
       <img className="absolute w-full z-5" src={heroshade} alt="shade" />
       <div id="hero" className="min-h-screen text-white z-5">
         <img
@@ -34,8 +34,7 @@ function Hero() {
             EXPERIENCE THE FORGE!
           </h1>
           <p className="px-2 pb-20 text-xl font-thin uppercase">
-            Lorem ipsum dolor sit amet consectetur. Ornare at elit ut ut arcu
-            interdum.{" "}
+            Craft your metal masterpiece and unleash mayhem in the arena!{" "}
           </p>
           <button className="bg-[#FF431A] bg-opacity-90 tracking-[1px] text-white text-xl py-4 px-6 rounded focus:outline-none focus:shadow-outline">
             <a href="#Register">Register Now!</a>
