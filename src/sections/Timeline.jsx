@@ -73,7 +73,7 @@ const Timeline = () => {
                       <div className="order-1 w-5/12"></div>
                       <div className="order-1 w-5/12 px-1 py-4 text-left">
                         <p className="mb-3 text-base text-[#ff431a]">
-                          6-9 May, 2021
+                          12-13 April, 2024
                         </p>
                         <h4 className="mb-3 font-bold text-lg md:text-2xl text-[#ff431a]">
                           Participation
@@ -101,7 +101,7 @@ const Timeline = () => {
                       <div className="order-1 w-5/12 px-1 py-4 text-right">
                         <p className="mb-3 text-base text-[#ff431a]">
                           {" "}
-                          10 May, 2021
+                          14 April, 2024
                         </p>
                         <h4 className="mb-3 font-bold text-lg md:text-2xl text-[#ff431a]">
                           Result Declaration
@@ -129,7 +129,7 @@ const Timeline = () => {
                       <div className="order-1 w-5/12"></div>
                       <div className="order-1 w-5/12 px-1 py-4">
                         <p className="mb-3 text-base text-[#ff431a]">
-                          12 May, 2021
+                          14 June, 2024
                         </p>
                         <h4 className="mb-3 font-bold  text-lg md:text-2xl text-left text-[#ff431a]">
                           Prize Distribution

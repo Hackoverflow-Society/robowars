@@ -140,10 +140,10 @@ function Contacts() {
             <div className="mb-4 ml-4">
               <h3 className="mb-2 text-lg font-medium leading-6 ">Contact</h3>
               <p className="text-gray-600 dark:text-slate-400">
-                Mobile: +91 1234567899
+                Mobile: +91 7059583075
               </p>
               <p className="text-gray-600 dark:text-slate-400">
-                Mail: tailnext@gmail.com
+                Mail: mehdiabbas286@gmail.com
               </p>
             </div>
           </li>
