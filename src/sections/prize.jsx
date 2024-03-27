@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 export default function Prize() {
-  return (
+  return (<div id="prize">
     <motion.section
       initial={{ y: 300, opacity: 0 }}
       whileInView={{ y: 0, opacity: 100 }}
@@ -29,8 +29,8 @@ export default function Prize() {
         >
           <div className="flex flex-col items-center">
             <img
-              src="\images\1st.png"
-              className="w-[20vw] md:w-[12vw] "
+              src="\images\1st_.png"
+              className="w-[20vw] md:w-[14vw] "
               alt=""
             />
             <h1 className="text-white lg:text-[30px] text-center font-BebasNeue ">
@@ -52,10 +52,11 @@ export default function Prize() {
             whileInView={{ opacity: 1, translateX: 0, translateY: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <div className="flex flex-col items-center ">
-              <img src="\images\3rd.png" className="w-[12vw]" alt="" />
+            
+            <div className="flex flex-col items-center">
+              <img src="\images\2nd_.png" className="w-[13vw]" alt="" />
               <h1 className="text-white lg:text-[30px] text-center font-BebasNeue ">
-                3RD PRIZE
+                2ND PRIZE
               </h1>
               <h1 className="text-[#FF431A] lg:text-[40px] text-center font-BebasNeue font-[400]">
                 &#8377;XX,XXX
@@ -72,10 +73,11 @@ export default function Prize() {
             whileInView={{ opacity: 1, translateX: 0, translateY: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <div className="flex flex-col items-center">
-              <img src="\images\2nd.png" className="w-[15vw]" alt="" />
+          
+            <div className="flex flex-col items-center ">
+              <img src="\images\3rd_.png" className="w-[12vw]" alt="" />
               <h1 className="text-white lg:text-[30px] text-center font-BebasNeue ">
-                2ND PRIZE
+                3RD PRIZE
               </h1>
               <h1 className="text-[#FF431A] lg:text-[40px] text-center font-BebasNeue font-[400]">
                 &#8377;XX,XXX
@@ -85,5 +87,6 @@ export default function Prize() {
         </div>
       </div>
     </motion.section>
+    </div>
   );
 }

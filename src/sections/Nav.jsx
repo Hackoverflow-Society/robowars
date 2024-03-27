@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <nav
       className={`relative ${
-        isTablet ? "pt-5" : "pt-10"
+        isTablet ? "pt-5" : "pt-6"
       }  text-white flex justify-around fixed  items-center z-[999] backdrop-blur-sm ${
         scrollDirection === "down" ? "-translate-y-[300%]" : "top-0"
       } duration-500`}

@@ -2,6 +2,7 @@ import FormInputs from "./FormInputs";
 import useFormContext from "../hooks/useFormContext";
 import { toast } from "react-hot-toast";
 import axios from "axios";
+import { useState } from "react";
 
 const Form = () => {
   const {
@@ -23,26 +24,52 @@ const Form = () => {
     setPage((prev) => prev + 1);
   };
 
+  const [isSubmitting, setIsSubmitting] = useState(false);
   // submit form funtion
   const handleSubmit = async (e) => {
+    // e.preventDefault();
+    // setIsSubmitting(true);
+
+    // try {
+    //   // Assuming 'https://robowarsregistration.vercel.app/submit' is your endpoint
+    //   const response = await axios.post(
+    //     "https://robowarsregistration.vercel.app/submit",
+    //     data
+    //   );
+
+    //   if (response.status === 200) {
+    //     console.log(response.data);
+    //     toast.success("Form submitted successfully!");
+    //   } else {
+    //     toast.error("Error submitting the form. Please try again.");
+    //   }
+    // } catch (error) {
+    //   console.error("Error submitting the form:", error);
+    //   toast.error("Error submitting the form. Please try again.");
+    // } finally {
+    //   setIsSubmitting(false); // Set isSubmitting state to false after the response is received
+    // }
     e.preventDefault();
+    setIsSubmitting(true); // Set isSubmitting state to true when the form is submitting
+
+    let response;
 
     try {
-      // Assuming 'https://robowarsregistration.vercel.app/submit' is your endpoint
-      const response = await axios.post(
+      response = await axios.post(
         "https://robowarsregistration.vercel.app/submit",
         data
       );
 
-      if (response.status === 200) {
-        console.log(response.data);
+      if (response && response.status === 200) {
         toast.success("Form submitted successfully!");
       } else {
         toast.error("Error submitting the form. Please try again.");
       }
     } catch (error) {
-      console.error("Error submitting the form:", error);
+      console.error(error);
       toast.error("Error submitting the form. Please try again.");
+    } finally {
+      setIsSubmitting(false); // Set isSubmitting state to false after the response is received
     }
   };
   const content = (
@@ -70,13 +97,13 @@ const Form = () => {
             Next
           </button>
 
-          <button
-            type="submit"
-            className={`button w-[90px] ${submitHide}`}
-            onClick={handleSubmit}
-          >
-            Submit
-          </button>
+          {isSubmitting ? (
+            <div className="spinner"></div>
+          ) : (
+            <button type="submit" className={`button w-[90px] ${submitHide}`}>
+              Submit
+            </button>
+          )}
         </div>
       </header>
     </form>
